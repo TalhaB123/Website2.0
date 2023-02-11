@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  @media only screen and (min-width: 768px){
+    body {
+      padding: 0px;
+      display: block;
+      height: 10%;
+      padding-bottom: 30px;
+    }
+    #Menubar{
+      display: block;
+      padding-left: 159%;
+    
+  }
+  .formButtonfront {
+    width: auto;
+   border:1px solid gray;
+   border-radius:7%;
+   float:right;
+   font-size:0.875;
+    }
+  }
+  body{
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  .Talha{
+    height: 10000px;
+    color: #fff;
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 90vh;
+    animation: Talha 0s ease-in 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes Talha{
+    to{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+  }
+  .T{
+    position: relative;
+    animation-name: T;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    cursor: pointer;
+  }          
+  @keyframes T  {
+    20%{bottom: 20px;}
+    40%{bottom: 40px;}
+    60%{bottom: 60px;}
+    80%{bottom: 80px;}
+    100%{bottom: 10px;}
+  }
+  .a{
+    position: relative;
+    animation-name: a;
+    animation-duration: .6s;
+    animation-timing-function: linear;
+    cursor: pointer;
+  }
+  @keyframes a  {
+    20%{bottom: 20px;}
+    40%{bottom: 40px;}
+    60%{bottom: 60px;}
+    80%{bottom: 80px;}
+    100%{bottom: 20px;}
+  }
+  .l{
+    position: relative;
+    animation-name: l;
+    animation-duration: .7s;
+    animation-timing-function: linear;
+    cursor: pointer;
+  }
+  @keyframes l  {
+    20%{bottom: 20px;}
+    40%{bottom: 40px;}
+    60%{bottom: 60px;}
+    80%{bottom: 80px;}
+    100%{bottom: 30px;}
+  }
+  .h{
+    position: relative;
+    animation-name: h;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+    cursor: pointer;
+  }
+  @keyframes h {
+    20%{bottom: 20px;}
+    40%{bottom: 40px;}
+    60%{bottom: 60px;}
+    80%{bottom: 80px;}
+    100%{bottom: 40px;}
+  }
+  .b {
+    position: relative;
+    animation-name: b;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+    cursor: pointer;
+  }
+  @keyframes b {
+    20%{bottom: 20px;}
+    40%{bottom: 40px;}
+    60%{bottom: 60px;}
+    80%{bottom: 80px;}
+    100%{bottom: 50px;}
+  }
+  button{
+    float: left;
+    width: 0;
+    height: 0;
+  }
+  #Menubar{
+    border-style: solid;
+    border-color: #fff;
+    height: 50px;
+    width: 0px;
+    border-width: 1px;
+    background-color: transparent;
+  }
+  #menubtn{
+    margin-right: 10px;
+    float: right;
+    width: px;
+    height: 5px;
+    background-color:transparent;
+    transition: 0.4s;
+  }
+  #bar1{
+    margin-top: 5px;
+    margin-right: 1px;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+  }
+  #bar2{
+    margin-top: 5px;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+  }
+  #bar3{ 
+    margin-top: 6px;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+  }
+  .change #bar1{
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  .change #bar2 {opacity: 0;}
+
+  .change #bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  #Menu{
+    margin-left: 10px;
+    opacity: 100%;
+    float: right;
+    width: 0;
+    height: 0;
+    background-color: rgb(0, 132, 255);
+    transition: 0.4s;
+  }
+  .change #Menu{
+    width: 100px;
+    height: 1000px;
+  }
+  .change button{
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    margin-left: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: .4s;
+  }
